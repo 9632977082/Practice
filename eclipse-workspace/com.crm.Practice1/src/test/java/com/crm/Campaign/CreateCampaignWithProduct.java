@@ -94,6 +94,7 @@ public class CreateCampaignWithProduct extends Base_class
 
 		
 		wlib.ToSwitchingWindow(driver,"Campaigns&action" );
+		
 
 	
 
@@ -110,6 +111,8 @@ public class CreateCampaignWithProduct extends Base_class
 		{
 			System.out.println("not created");
 		}
+		System.out.println("hi");
+		
 		home.SignOut();
 	}
 }
